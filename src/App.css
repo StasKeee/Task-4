@@ -1,0 +1,21 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.user {
+  flex-basis: 20%;
+  margin: 30px;
+  list-style-type: none;
+  border: solid;
+  border-color: blueviolet;
+  border-radius: 25px;
+}
